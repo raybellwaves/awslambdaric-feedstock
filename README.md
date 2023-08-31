@@ -1,11 +1,11 @@
-About awslambdaric
-==================
+About awslambdaric-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awslambdaric-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aws/aws-lambda-python-runtime-interface-client
 
 Package license: BSD-3-Clause AND Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awslambdaric-feedstock/blob/main/LICENSE.txt)
 
 Summary: AWS Lambda Runtime Interface Client for Python
 
