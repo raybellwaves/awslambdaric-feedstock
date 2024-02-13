@@ -1,5 +1,5 @@
 {% set name = "awslambdaric" %}
-{% set version = "2.0.9" %}
+{% set version = "2.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/awslambdaric-{{ version }}.tar.gz
-    sha256: b639de1e0b75394b705c335cbc7e76513a5c59c43de200539783df6404404a3b
+    sha256: 5a11cd06dc29459bf3b9da570af612fcf4dca1060bcfd2b78c36c835a37ae5c1
   # Please see awslabs/aws-lambda-cpp#94, remove once aws-lambda-cpp is upgraded to 0.2.7
     patches:
       - relax-simplejson.patch
