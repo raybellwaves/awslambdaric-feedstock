@@ -32,6 +32,8 @@ requirements:
     - libtool  # [linux]
     - make  # [linux]
     - pkg-config  # [linux]
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - pip
     - python
