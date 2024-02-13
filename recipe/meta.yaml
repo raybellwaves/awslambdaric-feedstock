@@ -38,7 +38,6 @@ requirements:
     - pip
     - python
   run:
-    - importlib-metadata >=2.0,<3
     - python
     - simplejson >=3.17.2,<3.18
 
